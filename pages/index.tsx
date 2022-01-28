@@ -1,13 +1,19 @@
 import type { NextPage } from 'next'
 import Layout from "../components/layout";
+import styles from "./index.module.css";
 
 const Home: NextPage = () => {
     return (
         <Layout>
-            <div id="player">
+            <div
+                id="player"
+                className={styles.player}>
                 <iframe
-                    src="https://www.youtube.com/embed/bTqVqk7FSmY?origin=https://plyr.io&amp;iv_load_policy=3&amp;modestbranding=1&amp;playsinline=1&amp;showinfo=0&amp;rel=0&amp;enablejsapi=1"
-                    allow="autoplay">
+                        className={styles.player}
+                        src="https://www.youtube.com/embed/DJZQ0FldHOI"
+                        title="YouTube video player" frameBorder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowFullScreen>
                 </iframe>
             </div>
         </Layout>
