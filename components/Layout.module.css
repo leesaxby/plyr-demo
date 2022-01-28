@@ -1,5 +1,12 @@
 .container {
-  padding: 0 2rem;
+  padding: 2rem;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+
 }
 
 .main {
