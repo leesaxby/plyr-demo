@@ -25,7 +25,7 @@ const Layout = ({ children }: Props) => {
                     </Link>
                     -
                     <Link href="/url">
-                        <a>URL SOURCE</a>
+                        <a>URL SOURCE (with poster image)</a>
                     </Link>
                 </nav>
             </header>
