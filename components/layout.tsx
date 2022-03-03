@@ -13,6 +13,7 @@ const Layout = ({ children }: Props) => {
                 <title>Plyr Demo</title>
                 <meta name="description" content="Plyr video demo" />
                 <link rel="icon" href="/favicon.ico" />
+                <link rel="manifest" href="/manifest.json" />
             </Head>
             <header>
                 <nav className={styles.nav}>
