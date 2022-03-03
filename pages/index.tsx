@@ -9,20 +9,12 @@ const Home: NextPage = () => {
         let deferredPrompt;
 
         window.addEventListener('beforeinstallprompt', (e) => {
+          console.log(e)
           // Prevent Chrome 67 and earlier from automatically showing the prompt
           e.preventDefault();
           // Stash the event so it can be triggered later.
           // @ts-ignore
           setDeferredPrompt(e);
-        });
-
-        // @ts-ignore
-        navigator.getInstalledRelatedApps().then(relatedApps => {
-          for (let app of relatedApps) {
-            console.log(app.platform);
-            console.log(app.url);
-            console.log(app.id);
-          }
         });
     })
 
