@@ -37,6 +37,8 @@ const Home: NextPage = () => {
 
     return (
         <Layout>
+            <a href="intent://scan/#Intent;scheme=zxing;package=com.google.zxing.client.android;end"> Take a QR code </a>
+
           <button onClick={firePrompt}>FIRE PROMPT</button>
             HOME
         </Layout>
