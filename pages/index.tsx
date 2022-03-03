@@ -12,10 +12,10 @@ const Home: NextPage = () => {
           e.preventDefault();
           // Stash the event so it can be triggered later.
           deferredPrompt = e;
-        });
 
-        console.log('beforeinstallprompt')
-        alert('beforeinstallprompt')
+          console.log('beforeinstallprompt')
+          alert('beforeinstallprompt')
+        });
     })
 
     return (
