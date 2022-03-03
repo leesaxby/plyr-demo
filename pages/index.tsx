@@ -16,9 +16,12 @@ const Home: NextPage = () => {
           console.log('beforeinstallprompt')
           alert('beforeinstallprompt')
 
+          // @ts-ignore
           deferredPrompt.prompt();
           // Wait for the user to respond to the prompt
+          // @ts-ignore
           deferredPrompt.userChoice
+          // @ts-ignore
             .then((choiceResult) => {
               if (choiceResult.outcome === 'accepted') {
                 alert('User accepted the A2HS prompt');
