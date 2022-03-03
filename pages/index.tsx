@@ -36,6 +36,7 @@ const Home: NextPage = () => {
 
     return (
         <Layout>
+          <button onClick={firePrompt}>FIRE PROMPT</button>
             HOME
         </Layout>
     )
