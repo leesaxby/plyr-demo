@@ -15,6 +15,15 @@ const Home: NextPage = () => {
           // @ts-ignore
           setDeferredPrompt(e);
         });
+
+        // @ts-ignore
+        navigator.getInstalledRelatedApps().then(relatedApps => {
+          for (let app of relatedApps) {
+            console.log(app.platform);
+            console.log(app.url);
+            console.log(app.id);
+          }
+        });
     })
 
     const firePrompt = () => {
