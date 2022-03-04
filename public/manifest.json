@@ -1,6 +1,6 @@
 {
-    "name": "The Gym Group",
-    "short_name": "The Gym Group",
+    "name": "Google I/O",
+    "short_name": "Google I/O",
     "icons": [
         {
             "src": "icon-36.png",
@@ -41,8 +41,8 @@
     "related_applications": [
         {
             "platform": "play",
-            "id": "com.netpulse.mobile.thegymgroup",
-            "url": "https://play.google.com/store/apps/details?id=com.netpulse.mobile.thegymgroup"
+            "id": "com.google.samples.apps.iosched",
+            "url": "https://play.google.com/store/apps/details?id=com.google.samples.apps.iosched"
         }
     ],
     "start_url": ".",
