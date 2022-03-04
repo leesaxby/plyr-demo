@@ -32,7 +32,7 @@ const Home: NextPage = () => {
         <Layout>
           INTENT LINK
             <a href="intent://scan/#Intent;scheme=thegymgroup;package=com.netpulse.mobile.thegymgroup;end"> use the app </a>
-
+            <img src="/images/poster.jpeg"/>
           <button onClick={firePrompt}>FIRE INSTALL PROMPT</button>
         </Layout>
     )
